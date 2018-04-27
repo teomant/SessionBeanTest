@@ -4,7 +4,7 @@ package org.teomant;
 import javax.ejb.Stateless;
 import javax.ejb.Remote;
 
-@Stateless(name="CalculatorBean", mappedName = "/SessionBeanTest_war_exploded/CalculatorBean/")
+@Stateless(name="CalculatorBean")
 @Remote(CalculatorRemote.class)
 public class CalculatorBean implements CalculatorRemote{
     public float add(float x, float y){

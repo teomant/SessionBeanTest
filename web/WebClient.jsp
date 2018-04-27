@@ -18,7 +18,7 @@
             InitialContext ic = new InitialContext();
 
             calculator = (CalculatorRemote) ic
-                    .lookup("Calc");
+                    .lookup("CalculatorBean");
 
             System.out.println("Loaded Calculator Bean");
 //CalculatorBean

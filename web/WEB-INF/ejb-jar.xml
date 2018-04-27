@@ -7,7 +7,7 @@
   http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd">
     <enterprise-beans>
         <session>
-            <ejb-name>Calc</ejb-name>
+            <ejb-name>CalculatorBean</ejb-name>
             <business-remote>org.teomant.CalculatorRemote</business-remote>
             <ejb-class>org.teomant.CalculatorBean</ejb-class>
             <session-type>Stateless</session-type>
