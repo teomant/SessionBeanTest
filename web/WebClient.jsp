@@ -18,7 +18,7 @@
             InitialContext ic = new InitialContext();
 
             calculator = (CalculatorRemote) ic
-                    .lookup("org/teomant/CalculatorBean/remote");
+                    .lookup("Calc");
 
             System.out.println("Loaded Calculator Bean");
 //CalculatorBean
